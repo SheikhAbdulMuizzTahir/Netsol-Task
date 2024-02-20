@@ -59,10 +59,9 @@ import DropdownButton from '../components/dropdownButton'
 .background {
   position: relative;
   width: 100%;
-  height: 100vh; /* Adjust height as needed */
-  overflow: hidden; /* Prevent child content from overflowing */
+  height: 100vh; 
+  overflow: hidden; 
 }
-
 .background::before {
   content: "";
   position: absolute;
@@ -75,14 +74,14 @@ import DropdownButton from '../components/dropdownButton'
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(50px); /* Adjust the blur radius as needed */
-  z-index: -1; /* Ensure the overlay is behind other content */
+  filter: blur(50px); 
+  z-index: -1; 
    transform: scale(1.1);
 
 }
 
 .centertitle {
-  /* News and Insights */
+
 
   font-family: "Aeonik";
   font-style: normal;
@@ -92,7 +91,7 @@ import DropdownButton from '../components/dropdownButton'
   text-align: center;
 
   text-align: center;
-  text-rendering: optimizeLegibility; /* Helps improve text rendering */
+  text-rendering: optimizeLegibility; 
   vertical-align: middle;
 
   background: linear-gradient(180deg, #ffffff 49.51%, #c0c0c0 89.32%);
@@ -111,13 +110,13 @@ import DropdownButton from '../components/dropdownButton'
   margin-right: auto;
   top: 157px;
   display: inline-block;
-  padding: 5px 10px; /* Adjust padding as needed */
-  border-radius: 20px; /* Adjust border-radius to control the pill shape */
+  padding: 5px 10px; 
+  border-radius: 20px; 
   background-color: rgba(0, 0, 0, 0.548);
-  color: white; /* Set text color to contrast with the background */
+  color: white; 
 }
 .text1 {
-  /* Latest Insights from Leading Voices */
+  
 
   position: absolute;
   width: 904px;
@@ -155,13 +154,12 @@ import DropdownButton from '../components/dropdownButton'
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  /* or 133% */
   text-align: center;
 
   color: rgba(255, 255, 255, 0.72);
 }
 .news {
-  /* View All News */
+
 
   position: absolute;
   width: 102px;
@@ -177,14 +175,12 @@ import DropdownButton from '../components/dropdownButton'
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
   text-decoration-line: underline;
 
   color: #ffffff;
 }
 .cards {
-  /* Cards */
-
+  
   position: absolute;
   width: 90%;
   height:30%;
@@ -202,13 +198,13 @@ import DropdownButton from '../components/dropdownButton'
   margin: 0.6%;
   display: flex;
   flex-direction: column;
-  position: relative; /* Add position relative */
+  position: relative; 
 }
 
 .box-image {
-  /* Rectangle 532 */
+
   flex: 1;
-  /* Remove position absolute */
+
   width: 100%;
   height: 60%;
   max-height: 60%;
@@ -268,7 +264,7 @@ flex-grow: 0;
 
 }
 .header-text{
-	/* Vector */
+
 
 position: absolute;
 top: 2%;
@@ -288,20 +284,3 @@ left: 85%;
 
 
 </style>
-/*
-/* Rectangle 34624148 */
-
-position: relative;
-width: 268px;
-height: 268px;
-
-
-
-background-image: url("/assets/bg.jpeg");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-
-*/

@@ -1,14 +1,10 @@
-import type { routeLocationKey } from 'vue-router'; import type {
-routeLocationKey } from 'vue-router'; import type { routeLocationKey } from
-'vue-router';
 <template>
   <div class="dropdown">
     <button
       class="dropbtn"
       :style="{ backgroundColor: selectedColor }"
-      @click="toggleDropdown"
-    >
-      Reigions
+      @click="toggleDropdown">
+      Regions
     </button>
     <div class="dropdown-content" v-show="isDropdownOpen">
       <a
@@ -54,7 +50,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add CSS styles for dropdown button and dropdown content */
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -119,9 +115,3 @@ export default {
   background-color: white;
 }
 </style>
-/* /* Property 1=Variant2 */ position: absolute; width: 200px; height: 33px;
-left: 20px; top: 73px; /* USA */ position: absolute; left: 0%; right: 76%; top:
-0%; bottom: 12.12%; font-family: 'Aeonik'; font-style: normal; font-weight: 250;
-font-size: 24px; line-height: 29px; /* identical to box height */ color:
-#00EAFF; /* Line 1 */ position: absolute; left: 0.5%; right: 0%; top: 100%;
-bottom: 0%; border: 0.5px solid #00EAFF; */
